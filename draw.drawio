@@ -1,0 +1,184 @@
+<mxfile host="65bd71144e">
+    <diagram id="-4iWn6rpcIURaRmppNj7" name="Page-1">
+        <mxGraphModel dx="1830" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="2" value="dag&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="80" width="430" height="240" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="data to s3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="80" y="170" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="4" value="data to snowflake&lt;br&gt;&lt;br&gt;+ infrastructure" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="180" y="145" width="90" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="5" value="magical DBT steps" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="170" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="dbt run" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="80" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="7" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="transform??" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="200" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" style="edgeStyle=none;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="8" target="7">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="take the raw data" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="140" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="10" value="public representation" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="600" y="260" width="90" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="12" value="transform??&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="100" y="390" width="610" height="520" as="geometry"/>
+                </mxCell>
+                <mxCell id="13" value="s3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="510" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="14" value="dbt&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="130" y="432.5" width="540" height="437.5" as="geometry"/>
+                </mxCell>
+                <mxCell id="16" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="17" value="source dag config&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="470" width="140" height="190" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="510" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="s3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="10" y="570" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="21" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="20" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="170" y="570" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="" style="group" vertex="1" connectable="0" parent="1">
+                    <mxGeometry x="310" y="510" width="140" height="85" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="tableName." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="tableName." style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="10" y="15" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="tableName.sql" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="26">
+                    <mxGeometry x="20" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="27" value="tableName.sql&lt;br&gt;&lt;br&gt;converting types&lt;br&gt;standardising names&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="320" y="620" width="150" height="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="28" value="schema = user supplied" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="330" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="29" value="schema = default variant payload" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="160" y="330" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="schema inferred for some operators" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="250" y="330" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="schema determined from the database" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="360" y="330" width="90" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="public schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="510" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="table" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="540" y="580" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="41" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="35" target="40">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="ODS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="36" target="35">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="DAG (templated)&lt;br&gt;yaml.config&lt;br&gt;sql_files(optional)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="42" style="edgeStyle=none;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="38" target="36">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" value="prereq&lt;br&gt;manually put in the connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="40" value="PUBLIC&lt;br&gt;TABLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="25" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" style="edgeStyle=none;html=1;" edge="1" parent="1" source="43" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="43" value="prereq&lt;br&gt;manually put in the connection" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1010" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" style="edgeStyle=none;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="44" target="45">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="44" value="DAG (templated)&lt;br&gt;yaml.config&lt;br&gt;sql_files(optional)" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1160" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="48">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" style="edgeStyle=none;html=1;" edge="1" parent="1" source="45" target="46">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="45" value="ODS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="46" value="PUBLIC&lt;br&gt;TABLE" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1470" y="135" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="50" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="48" target="44">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="48" value="generated schema not good enough" style="rhombus;whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+                    <mxGeometry x="1260" y="255" width="80" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="ODS&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="890" y="440" width="730" height="320" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="from config.yaml&lt;br&gt;there will be an operator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="540" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="57" value="operator should exist&lt;br&gt;and should get files into s3" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="910" y="630" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="58" value="given that files are in s3 ext stage and ext table should be created" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1040" y="580" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="59" value="DBT run will apply schema and handle creation of&amp;nbsp;&lt;br&gt;~ schema obj&lt;br&gt;~tables&lt;br&gt;??? profit" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1320" y="490" width="120" height="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="60" value="generate or consume schema" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1170" y="470" width="140" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="61" value="Public table ready to consume" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="490" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="62" value="or needs work, go tweak sql and publish to GH" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="550" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="63" value="how does the user get this SQL to tweak?" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1460" y="640" width="110" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="64" value="where is this stuff?&lt;br&gt;https://github.com/OZM-01/ihb-utils-dbt" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1170" y="560" width="139" height="88" as="geometry"/>
+                </mxCell>
+                <mxCell id="65" value="currrently in macros, but could be in Python" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="1170" y="660" width="139" height="86" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
