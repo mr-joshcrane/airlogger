@@ -1,10 +1,7 @@
 package airlogger_test
 
-import (
-	"testing"
-)
+import testing
 
-func TestRunningAJobTriggersAnAirflowJob(t *testing.T) {
-	t.Parallel()
-
+func TestTest(t *testing.T) {
+	
 }
